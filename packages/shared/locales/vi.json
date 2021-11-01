@@ -360,8 +360,8 @@
                 "description": "Deletes your entire profile, wallets and transaction history. Make sure you have a backup"
             },
             "deepLinks": {
-                "title": "Các liên kết sâu",
-                "description": "Automatically fill transaction data in Firefly upon clicking an iota:// link"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Chế độ nhà phát triển",
@@ -684,7 +684,7 @@
         "syncAll": "Đồng bộ tất cả",
         "export": "Xuất",
         "exportNewStronghold": "Xuất ra Stronghold",
-        "enableDeepLinks": "Kích hoạt các liên kết sâu",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Bật chế độ nhà phát triển",
         "enableSystemNotifications": "Cho phép thông báo",
         "exportState": "Xuất trạng thái",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 phút còn lại} other {# số phút còn lại}}",
         "copiedToClipboard": "Copied to clipboard",
         "accountsSynchronized": "Wallet synchronization complete",
-        "fundsAvailableSoon": "Your funds will become available shortly"
+        "fundsAvailableSoon": "Your funds will become available shortly",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

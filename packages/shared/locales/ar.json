@@ -360,8 +360,8 @@
                 "description": "يحذف كامل ملفك الشخصي ومحفظاتك وسجل المعاملات. تأكد من أن لديك نسخة احتياطية"
             },
             "deepLinks": {
-                "title": "روابط عميقة",
-                "description": "ملء بيانات المعاملات تلقائياً في Firefly عند النقر فوق رابط iota://"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "وضع المبرمج",
@@ -684,7 +684,7 @@
         "syncAll": "مزامنة الكل",
         "export": "تصدير",
         "exportNewStronghold": "تصدير ملف محصّن جديد",
-        "enableDeepLinks": "تمكين الروابط العميقة",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "تمكين وضع المبرمج",
         "enableSystemNotifications": "تمكين إشعارات النظام",
         "exportState": "تصدير الحالة",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 دقيقة متبقية} other {# دقائق متبقية}}",
         "copiedToClipboard": "تم النسخ إلى الحافظة",
         "accountsSynchronized": "اكتملت مزامنة المحفظة",
-        "fundsAvailableSoon": "Your funds will become available shortly"
+        "fundsAvailableSoon": "Your funds will become available shortly",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

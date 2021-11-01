@@ -360,7 +360,7 @@
                 "description": "Tar bort hela din profil, dina plånböcker samt transaktionshistorik. Se till att du har en säkerhetskopia"
             },
             "deepLinks": {
-                "title": "Hyperlänkar",
+                "title": "IOTA-länkar",
                 "description": "Fyll automatiskt i transaktionsdata i Firefly när du klickar på en iota:// länk"
             },
             "developerMode": {
@@ -684,7 +684,7 @@
         "syncAll": "Synkronisera alla",
         "export": "Exportera",
         "exportNewStronghold": "Exportera en ny Stronghold",
-        "enableDeepLinks": "Aktivera hyperlänkar",
+        "enableDeepLinks": "Aktivera IOTA-länkar",
         "enableDeveloperMode": "Aktivera utvecklarläge",
         "enableSystemNotifications": "Aktivera systemaviseringar",
         "exportState": "Exportera tillstånd",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 minut kvar} other {# minuter kvar}}",
         "copiedToClipboard": "Kopierad till urklipp",
         "accountsSynchronized": "Plånbokssynkronisering slutförd",
-        "fundsAvailableSoon": "Dina IOTA kommer inom kort att bli tillgängliga"
+        "fundsAvailableSoon": "Dina IOTA kommer inom kort att bli tillgängliga",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Logga in för att initiera IOTA-länken",
+            "notEnabled": "IOTA-länkar är inte aktiverade",
+            "invalidFormat": "IOTA-länken du följde är ogiltig",
+            "wallet": {
+                "send": {
+                    "success": "Betalningsinformation tillagd från IOTA-länk"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

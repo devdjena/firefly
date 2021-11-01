@@ -196,7 +196,7 @@
             "title": "Choose Ledger account index",
             "body": "Choose the Ledger account index you used with Trinity. For most users this will be the default index of 0.",
             "accountIndex": "Account Index",
-            "accountPage": "Account Page",
+            "accountPage": "Halaman Akun",
             "standard": "Standar",
             "expert": "Ahli",
             "takingAWhile": "This is taking a while...",
@@ -360,8 +360,8 @@
                 "description": "Deletes your entire profile, wallets and transaction history. Make sure you have a backup"
             },
             "deepLinks": {
-                "title": "Tautan Dalam",
-                "description": "Secara otomatis mengisi data transaksi di Firefly dengan mengklik link iota: //"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Mode pengembang",
@@ -684,7 +684,7 @@
         "syncAll": "Sinkronkan semua",
         "export": "Ekspor",
         "exportNewStronghold": "Ekspor Stronghold baru",
-        "enableDeepLinks": "Memungkinkan deep links",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Aktifkan Alat Pengembang",
         "enableSystemNotifications": "Aktifkan notifikasi sistem",
         "exportState": "Ekspor status",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 minute remaining} other {#sisa menit}}",
         "copiedToClipboard": "Salin ke papan klip",
         "accountsSynchronized": "Wallet synchronization complete",
-        "fundsAvailableSoon": "Your funds will become available shortly"
+        "fundsAvailableSoon": "Your funds will become available shortly",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

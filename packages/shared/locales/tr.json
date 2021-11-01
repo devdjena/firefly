@@ -360,8 +360,8 @@
                 "description": "Tüm profilinizi, cüzdanlarınızı ve işlem geçmişinizi siler. Bir yedeğiniz olduğundan emin olun"
             },
             "deepLinks": {
-                "title": "Derin Bağlantılar",
-                "description": "Firefly’daki işlem bilgisini, iota:// linkine tıkladığında otomatik olarak doldur"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Geliştirici Modu",
@@ -684,7 +684,7 @@
         "syncAll": "Tümünü eşitle",
         "export": "Dışarı Aktar",
         "exportNewStronghold": "Yeni bir Stronghold dışa aktarın",
-        "enableDeepLinks": "Derin bağlantıları etkinleştir",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Geliştirici modunu etkinleştir",
         "enableSystemNotifications": "Bildirimleri etkinleştir",
         "exportState": "State dışa aktarın",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 dakika kaldı} other {# dakika kaldı}}",
         "copiedToClipboard": "Panoya kopyalandı",
         "accountsSynchronized": "Cüzdan senkronizasyonu tamamlandı",
-        "fundsAvailableSoon": "Bakiyeniz kısa süre içinde kullanılabilir hale gelecektir"
+        "fundsAvailableSoon": "Bakiyeniz kısa süre içinde kullanılabilir hale gelecektir",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

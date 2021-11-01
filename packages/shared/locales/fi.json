@@ -360,8 +360,8 @@
                 "description": "Poistaa koko profiilisi, lompakkosi ja transaktiohistoriasi. Varmista, että sinulla on varmuuskopio"
             },
             "deepLinks": {
-                "title": "Syvälinkit",
-                "description": "Täytä transaktiotiedot automaattisesti Fireflyssa, kun klikkaat iota://-linkkiä"
+                "title": "IOTA-linkit",
+                "description": "Täytä transaktiotiedot automaattisesti Fireflyssä, kun klikkaat IOTA-linkkiä"
             },
             "developerMode": {
                 "title": "Kehittäjätila",
@@ -684,7 +684,7 @@
         "syncAll": "Synkronoi kaikki",
         "export": "Vie",
         "exportNewStronghold": "Vie uuteen Strongholdiin",
-        "enableDeepLinks": "Ota syvälinkit käyttöön",
+        "enableDeepLinks": "Ota IOTA-linkit käyttöön",
         "enableDeveloperMode": "Ota kehittäjätila käyttöön",
         "enableSystemNotifications": "Ota järjestelmäilmoitukset käyttöön",
         "exportState": "Vie tila",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 minuutti jäljellä} other {# minuuttia jäljellä}}",
         "copiedToClipboard": "Kopioitu leikepöydälle",
         "accountsSynchronized": "Lompakon synkronointi valmis",
-        "fundsAvailableSoon": "Varasi ovat käytettävissä pian"
+        "fundsAvailableSoon": "Varasi ovat käytettävissä pian",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Ole hyvä ja kirjaudu aloittaaksesi IOTA-linkin",
+            "notEnabled": "IOTA-linkit eivät ole käytössä",
+            "invalidFormat": "Seuraamasi IOTA-linkki on virheellinen",
+            "wallet": {
+                "send": {
+                    "success": "Maksutiedot lisätty IOTA-linkistä"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

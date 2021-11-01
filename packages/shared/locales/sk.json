@@ -360,8 +360,8 @@
                 "description": "Odstráni celý váš profil, peňaženky a históriu transakcii. Uistite sa, že máte zálohu"
             },
             "deepLinks": {
-                "title": "Deep linky",
-                "description": "Automaticky vyplní transakčné údaje vo Firefly po kliknutí na iota:// link"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Vývojársky režim",
@@ -684,7 +684,7 @@
         "syncAll": "Synchronizovať všetko",
         "export": "Exportovať",
         "exportNewStronghold": "Exportovať nový Stronghold",
-        "enableDeepLinks": "Zapnúť deep linky",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Zapnúť vývojársky režim",
         "enableSystemNotifications": "Zapnúť systémové notifikácie",
         "exportState": "Exportovať stav",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {ostáva 1 minúta} \nfew {ostávajú # minúty} \nmany {ostáva # minút} \nother {ostáva # minút}}",
         "copiedToClipboard": "Skopírované do schránky",
         "accountsSynchronized": "Synchronizácia peňaženky je kompletná",
-        "fundsAvailableSoon": "Vaše prostriedky budú čoskoro k dispozícii"
+        "fundsAvailableSoon": "Vaše prostriedky budú čoskoro k dispozícii",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

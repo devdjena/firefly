@@ -360,8 +360,8 @@
                 "description": "Видаляє весь ваш профіль, гаманці та історію транзакцій. Переконайтеся, що у вас є резервна копія"
             },
             "deepLinks": {
-                "title": "Глибокі посилання",
-                "description": "Автоматично заповнити дані транзакцій в Firefly при натисканні на посилання iota://"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Режим розробника",
@@ -684,7 +684,7 @@
         "syncAll": "Синхронізувати все",
         "export": "Експортувати",
         "exportNewStronghold": "Експортувати новий Stronghold",
-        "enableDeepLinks": "Активувати смарт лінки",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Активувати режим розробника",
         "enableSystemNotifications": "Увімкнути систему сповіщень",
         "exportState": "Експортувати звіт",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {Залишилось 1 хвилина} other { Залишилось # хвилин}}",
         "copiedToClipboard": "Скопійовано в буфер обміну",
         "accountsSynchronized": "Синхронізацію гаманця завершено",
-        "fundsAvailableSoon": "Незабаром ваші кошти стануть доступними"
+        "fundsAvailableSoon": "Незабаром ваші кошти стануть доступними",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

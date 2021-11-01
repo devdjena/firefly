@@ -360,8 +360,8 @@
                 "description": "刪除您全部的設定檔、錢包和交易記錄。請確認您已經備份。"
             },
             "deepLinks": {
-                "title": "深層連結",
-                "description": "點擊 iota:// link，自動在 Firefly 中填入交易數據。"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "開發者模式",
@@ -684,7 +684,7 @@
         "syncAll": "同步全部",
         "export": "匯出",
         "exportNewStronghold": "輸出一個新的 Stronghold",
-        "enableDeepLinks": "啟用深度連結",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "開啟開發者模式",
         "enableSystemNotifications": "啟用系統通知",
         "exportState": "匯出狀態",
@@ -885,7 +885,17 @@
         "minutesRemaining": "分鐘, 複數, 一 剩下一分鐘 其他 剩下一分鐘",
         "copiedToClipboard": "複製到剪貼簿",
         "accountsSynchronized": "錢包同步完成",
-        "fundsAvailableSoon": "您的資金很快就可以使用"
+        "fundsAvailableSoon": "您的資金很快就可以使用",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

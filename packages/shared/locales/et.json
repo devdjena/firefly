@@ -360,8 +360,8 @@
                 "description": "Kustutab su terve profiili, rahakotid ja tehinguajalugu. Tee kindlaks, et sul on tagavara"
             },
             "deepLinks": {
-                "title": "Deep links",
-                "description": "Automatically fill transaction data in Firefly upon clicking an iota:// link"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Arendaja režiim",
@@ -684,7 +684,7 @@
         "syncAll": "Sync all",
         "export": "Ekspordi",
         "exportNewStronghold": "Export a new Stronghold",
-        "enableDeepLinks": "Enable deep links",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Enable developer mode",
         "enableSystemNotifications": "Luba süsteemiteavitused",
         "exportState": "Export state",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 minut jäänud} other {# minutit jäänud}}",
         "copiedToClipboard": "Kopeeritud lõikelauale",
         "accountsSynchronized": "Wallet synchronization complete",
-        "fundsAvailableSoon": "Your funds will become available shortly"
+        "fundsAvailableSoon": "Your funds will become available shortly",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

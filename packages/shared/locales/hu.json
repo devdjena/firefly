@@ -360,8 +360,8 @@
                 "description": "A teljes profil, tárcák és tranzakciós előzmények törlése. Győzödjön meg róla, hogy van biztonsági mentése"
             },
             "deepLinks": {
-                "title": "Mélyhivatkozások",
-                "description": "A tranzakciós adatok automatikus kitöltése a Firefly-ban egy iota:// hivatkozásra kattintva"
+                "title": "IOTA hivatkozások",
+                "description": "A tranzakciós adatok automatikus kitöltése Firefly-ban egy IOTA hivatkozásra kattintva"
             },
             "developerMode": {
                 "title": "Fejlesztői mód",
@@ -684,7 +684,7 @@
         "syncAll": "Minden szinkronizálása",
         "export": "Exportálás",
         "exportNewStronghold": "Új Stronghold exportálása",
-        "enableDeepLinks": "Mélylinkek engedélyezése",
+        "enableDeepLinks": "IOTA hivatkozások engedélyezése",
         "enableDeveloperMode": "Fejlesztői mód engedélyezése",
         "enableSystemNotifications": "Rendszer értesítések engedélyezése",
         "exportState": "Állapot exportálása",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 perc van hátra} other {# perc van hátra}}",
         "copiedToClipboard": "A vágólapra másolva",
         "accountsSynchronized": "Tárca szinkronizálva",
-        "fundsAvailableSoon": "Egyenlege hamarosan elérhető lesz"
+        "fundsAvailableSoon": "Egyenlege hamarosan elérhető lesz",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Kérjük, jelentkezzen be az IOTA hivatkozás megnyitásához",
+            "notEnabled": "Az IOTA hivatkozások nincsenek engedélyezve",
+            "invalidFormat": "Az IOTA hivatkozás érvénytelen",
+            "wallet": {
+                "send": {
+                    "success": "Fizetés részletei az IOTA hivatkozás alapján kitöltve"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

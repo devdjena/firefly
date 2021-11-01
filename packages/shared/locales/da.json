@@ -360,8 +360,8 @@
                 "description": "Sletter hele din profil, wallets og transaktionshistorik. Sørg for at du har en sikkerhedskopi"
             },
             "deepLinks": {
-                "title": "Dybe Links",
-                "description": "Udfyld automatisk transaktionsdata i Firefly ved at klikke på et iota:// link"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Udviklertilstand",
@@ -684,7 +684,7 @@
         "syncAll": "Synkronisér alle",
         "export": "Eksportér",
         "exportNewStronghold": "Eksportér en ny Stronghold",
-        "enableDeepLinks": "Aktivér dybe links",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Aktiver udviklertilstand",
         "enableSystemNotifications": "Aktiver notifikationer",
         "exportState": "Eksportér tilstand",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 minut tilbage} other {# minutter tilbage}}",
         "copiedToClipboard": "Kopieret til udklipsholder",
         "accountsSynchronized": "Synkronisering af wallet fuldført",
-        "fundsAvailableSoon": "Your funds will become available shortly"
+        "fundsAvailableSoon": "Your funds will become available shortly",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

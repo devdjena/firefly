@@ -360,8 +360,8 @@
                 "description": "Удаляет весь ваш профиль, кошельки и историю транзакций. Убедитесь, что у вас есть резервная копия"
             },
             "deepLinks": {
-                "title": "Умные ссылки",
-                "description": "Автоматически заполнить данные транзакций в Firefly при нажатии на ссылку iota://"
+                "title": "Ссылки IOTA",
+                "description": "Автоматически заполнить данные о транзакциях в Firefly при нажатии на ссылку IOTA"
             },
             "developerMode": {
                 "title": "Режим Разработчика",
@@ -635,7 +635,7 @@
         "outgoingMi": "Исходящие {value}",
         "portoflio": "Портфолио",
         "token": "Токен",
-        "holdings": "Holdings",
+        "holdings": "Владения",
         "accountValue": "Стоимость кошелька",
         "accountActivity": "Активность кошелька",
         "timeframe1Hour": "1 час",
@@ -684,7 +684,7 @@
         "syncAll": "Синхронизировать все",
         "export": "Экспортировать",
         "exportNewStronghold": "Экспортировать новый Stronghold",
-        "enableDeepLinks": "Активировать умные ссылки",
+        "enableDeepLinks": "Включить ссылки IOTA",
         "enableDeveloperMode": "Активировать режим Разработчика",
         "enableSystemNotifications": "Включить систему уведомлений",
         "exportState": "Экспортировать отчет",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {Осталась 1 минута} other { Осталось # минут}}",
         "copiedToClipboard": "Скопировано в буфер обмена",
         "accountsSynchronized": "Синхронизация кошелька завершена",
-        "fundsAvailableSoon": "Ваши средства будут доступны в ближайшее время"
+        "fundsAvailableSoon": "Ваши средства будут доступны в ближайшее время",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Пожалуйста, войдите в систему, чтобы открыть ссылку IOTA",
+            "notEnabled": "Ссылки IOTA не включены",
+            "invalidFormat": "Ссылка на IOTA, по которой вы перешли, недействительна",
+            "wallet": {
+                "send": {
+                    "success": "Платежные реквизиты добавлены из ссылки IOTA"
+                }
+            }
+        }
     },
     "error": {
         "profile": {
@@ -945,7 +955,7 @@
         },
         "node": {
             "invalid": "Пожалуйста, введите правильный адрес.",
-            "dns": "Could not resolve DNS for node.",
+            "dns": "Не удалось определить DNS для узла.",
             "https": "Требуется HTTPS. Настройте профиль разработчика для использования небезопасных HTTP-соединений.",
             "duplicate": "Этот узел уже был добавлен.",
             "unsynced": "Узел не синхронизирован.",
@@ -984,7 +994,7 @@
             "missingBundle": "Произошла ошибка при попытке найти узел транзакции."
         },
         "crypto": {
-            "cannotDecodeBech32": "Unable to decode string as Bech32 address."
+            "cannotDecodeBech32": "Невозможно декодировать строку как Bech32 адрес."
         }
     },
     "tooltips": {

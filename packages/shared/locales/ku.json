@@ -360,8 +360,8 @@
                 "description": "Deletes your entire profile, wallets and transaction history. Make sure you have a backup"
             },
             "deepLinks": {
-                "title": "Girêdanên kûr",
-                "description": "Dema pêl iota:// girêdana bikê kiryarên Firefly otomatîk dadigire"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Mode ya pêşdebir",
@@ -684,7 +684,7 @@
         "syncAll": "Hemîyê bike wekhev",
         "export": "Barkirina Derve",
         "exportNewStronghold": "Stronghold'ek nû barbikê derve",
-        "enableDeepLinks": "Girêdanên kur çalak bike",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Moda pêkirinê çalak bike",
         "enableSystemNotifications": "Danezanên sîstemî bigre",
         "exportState": "Statê barbikê derve",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 minute remaining} other {# xulek maye}}",
         "copiedToClipboard": "Li rûnûsgehê hate kopîkirin",
         "accountsSynchronized": "Senkronîzekirina Cuzdankê serkeft",
-        "fundsAvailableSoon": "Your funds will become available shortly"
+        "fundsAvailableSoon": "Your funds will become available shortly",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

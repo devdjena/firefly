@@ -360,8 +360,8 @@
                 "description": "プロファイル、ウォレット、取引履歴全体を削除します。バックアップがあることを確認してください"
             },
             "deepLinks": {
-                "title": "ディープ リンク",
-                "description": "iota://リンクをクリックするとFireflyの取引履歴が自動的に入力されます"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "開発者モード",
@@ -684,7 +684,7 @@
         "syncAll": "すべて同期",
         "export": "エクスポート",
         "exportNewStronghold": "新しい Stronghold をエクスポート",
-        "enableDeepLinks": "ディープリンクを有効にする",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "開発者モードを有効にする",
         "enableSystemNotifications": "システム通知を有効にする",
         "exportState": "ステータス をエクスポート",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one { 残り1分 } other {# 残り分 }}",
         "copiedToClipboard": "クリップボードにコピーしました",
         "accountsSynchronized": "ウォレット同期が完了しました",
-        "fundsAvailableSoon": "Your funds will become available shortly"
+        "fundsAvailableSoon": "Your funds will become available shortly",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

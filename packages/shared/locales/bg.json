@@ -360,8 +360,8 @@
                 "description": "Изтриване на потребителския профил, портфейл и история на трансакциите. Уверете се, че имате резервно копие"
             },
             "deepLinks": {
-                "title": "Специални линкове",
-                "description": "Автоматично попълване на данни за трансакциите във Firefly, след щракане върху iota:// линк"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Режим на разработчик",
@@ -684,7 +684,7 @@
         "syncAll": "Синхронизиране на всички",
         "export": "Експорт",
         "exportNewStronghold": "Експортиране на нов Stronghold",
-        "enableDeepLinks": "Разрешаване на специални линкове",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Включване на режима за разработчици",
         "enableSystemNotifications": "Разрешаване на системни известия",
         "exportState": "Експорт състояние",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {оставащи 1 минута} other {оставащи # минути}}",
         "copiedToClipboard": "Копирано в клипборда",
         "accountsSynchronized": "Синхронизацията на портфейла завършена",
-        "fundsAvailableSoon": "Вашите средства ще бъдат налични скоро"
+        "fundsAvailableSoon": "Вашите средства ще бъдат налични скоро",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

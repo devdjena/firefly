@@ -360,8 +360,8 @@
                 "description": "آپ کی پوری پروفائل، والٹس اور ٹرانزیکشن کی تاریخ کو حذف کرتا ہے۔ یقینی بنائیں کہ آپ کے پاس ایک بیک اپ موجود ہے"
             },
             "deepLinks": {
-                "title": "گہرے لنکس",
-                "description": "//:iota لنک پر کلک کرنے پر فائر فلی میں ٹرانزیکشن کا ڈیٹا خود بخود پُر کریں"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "ڈویلپر موڈ",
@@ -684,7 +684,7 @@
         "syncAll": "سب کو سنک کریں",
         "export": "برآمد کریں",
         "exportNewStronghold": "ایک نیا سٹرانگ ہولڈ برآمد کریں",
-        "enableDeepLinks": "ڈیپ لنکس کو فعال کریں",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "ڈیولپر موڈ میں فعال کریں",
         "enableSystemNotifications": "اطلاعات کو فعال بنائیں",
         "exportState": "حالت برآمد کریں",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 منٹ باقی} other {# منٹس باقی}}",
         "copiedToClipboard": "کلپ بورڈ میں کاپی ہو گیا",
         "accountsSynchronized": "والٹ کی سنک مکمل",
-        "fundsAvailableSoon": "Your funds will become available shortly"
+        "fundsAvailableSoon": "Your funds will become available shortly",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

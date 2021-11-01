@@ -360,8 +360,8 @@
                 "description": "Odstraní profil, peněženky a historii transakcí. Ujistěte se, že máte zálohu"
             },
             "deepLinks": {
-                "title": "Hluboké odkazy",
-                "description": "Automaticky vyplnit údaje o transakcích ve Firefly po kliknutí na odkaz iota://"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Vývojářský režim",
@@ -684,7 +684,7 @@
         "syncAll": "Synchronizovat vše",
         "export": "Exportovat",
         "exportNewStronghold": "Exportovat nový Stronghold",
-        "enableDeepLinks": "Povolit hluboké odkazy",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Povolit vývojářský režim",
         "enableSystemNotifications": "Povolit upozornění",
         "exportState": "Exportovat stav",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 zbývající minuta} other {# zbývajících minut}}",
         "copiedToClipboard": "Zkopírováno do schránky",
         "accountsSynchronized": "Synchronizace peněženky dokončena",
-        "fundsAvailableSoon": "Vaše prostředky budou brzy k dispozici"
+        "fundsAvailableSoon": "Vaše prostředky budou brzy k dispozici",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

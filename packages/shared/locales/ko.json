@@ -360,8 +360,8 @@
                 "description": "지갑, 프로필 및 거래 내역 전체를 삭제합니다. 삭제 전에 백업해 놓았는지 확인해주세요"
             },
             "deepLinks": {
-                "title": "딥 링크",
-                "description": "iota:// 로 시작하는 주소에 접근할 경우 자동으로 Firefly에 거래 관련 데이터 입력"
+                "title": "IOTA 링크",
+                "description": "IOTA 링크에 접근할 경우 자동으로 Firefly에 거래 관련 데이터 입력"
             },
             "developerMode": {
                 "title": "개발자 모드",
@@ -684,7 +684,7 @@
         "syncAll": "모두 동기화하기",
         "export": "내보내기",
         "exportNewStronghold": "새 Stronghold 내보내기",
-        "enableDeepLinks": "딥 링크 활성화",
+        "enableDeepLinks": "IOTA 링크 활성화",
         "enableDeveloperMode": "개발자 모드 활성화하기",
         "enableSystemNotifications": "시스템 알림 켜기",
         "exportState": "상태 내보내기",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, other {남은 시간 #분}}",
         "copiedToClipboard": "클립보드에 복사되었습니다.",
         "accountsSynchronized": "지갑 동기화 완료",
-        "fundsAvailableSoon": "자금이 곧 사용가능해질 것입니다."
+        "fundsAvailableSoon": "자금이 곧 사용가능해질 것입니다.",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "IOTA 링크를 시작하려면 로그인하십시오",
+            "notEnabled": "IOTA 링크 비활성화됨",
+            "invalidFormat": "IOTA 링크가 유효하지 않습니다",
+            "wallet": {
+                "send": {
+                    "success": "IOTA 링크에서 결제 세부 사항 추가됨"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

@@ -360,8 +360,8 @@
                 "description": "Forigas vian tutan profilon, monujojn kaj transakcian historion. Certigu, ke vi havas sekurkopion"
             },
             "deepLinks": {
-                "title": "Profundaj ligiloj",
-                "description": "Aŭtomate plenigu transakciajn datumojn en Firefly alklakante iota: // ligilon"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Reĝimo por evoluigadoj",
@@ -684,7 +684,7 @@
         "syncAll": "Sinkronigi ĉion",
         "export": "Eksporti",
         "exportNewStronghold": "Eksporti novan Stronghold",
-        "enableDeepLinks": "Aktivigi profundajn ligilojn",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Aktivigi programan modon",
         "enableSystemNotifications": "Aktivigi sistemajn sciigojn",
         "exportState": "Eksporta ŝtato",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 minuto restas} other {# minutoj restas}}",
         "copiedToClipboard": "Copied al dosierujo",
         "accountsSynchronized": "Monujo-sinkronigado finiĝis",
-        "fundsAvailableSoon": "Viaj fondusoj baldaŭ disponeblos"
+        "fundsAvailableSoon": "Viaj fondusoj baldaŭ disponeblos",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

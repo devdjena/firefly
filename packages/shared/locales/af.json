@@ -360,8 +360,8 @@
                 "description": "Verwyder jou hele profiel, beursie en transaksiegeskiedenis. Maak seker dat jy 'n back-up het"
             },
             "deepLinks": {
-                "title": "Deep links",
-                "description": "Vul transaksiedata outomaties in Firefly deur op 'n iota: // te click"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Ontwikkelaar mode",
@@ -684,7 +684,7 @@
         "syncAll": "Sinkroniseer almal",
         "export": "Export",
         "exportNewStronghold": "Export n nuwe Stronghold",
-        "enableDeepLinks": "Aktiveer deep links",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Activeer ontwikkelaarsmode",
         "enableSystemNotifications": "Aktiveer stelselkennisgewings",
         "exportState": "Export staat",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 minuut oor} other {# minute oor}}",
         "copiedToClipboard": "Kopieer na knipbord",
         "accountsSynchronized": "Beursie sinchronisasie voltooi",
-        "fundsAvailableSoon": "Jou fondse sal binnekort beskikbaar wees"
+        "fundsAvailableSoon": "Jou fondse sal binnekort beskikbaar wees",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

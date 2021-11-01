@@ -360,8 +360,8 @@
                 "description": "کل پروفایل ، کیف پول ها و سابقه تراکنش های شما را حذف می کند. از داشتن نسخه بک آپ مطمئن شوید"
             },
             "deepLinks": {
-                "title": "لینک عمیق",
-                "description": "با کلیک بر لینک //:iota به صورت خودکار اطلاعات تراکنش را در Firefly وارد کنید"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "حالت برنامه نویسی",
@@ -684,7 +684,7 @@
         "syncAll": "همگام‌سازی همه",
         "export": "استخراج",
         "exportNewStronghold": "استخراج یک Stronghold جدید",
-        "enableDeepLinks": "فعالسازی لینک عمیق",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "فعالسازی حالت برنامه نویسی",
         "enableSystemNotifications": "فعالسازی اعلان های سیستم",
         "exportState": "استخراج وضعیت",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 دقیقه باقی مانده } other {# دقیقه باقی مانده}}",
         "copiedToClipboard": "در کلیپ‌بورد کپی شد",
         "accountsSynchronized": "همگام سازی حساب کامل شد",
-        "fundsAvailableSoon": "Your funds will become available shortly"
+        "fundsAvailableSoon": "Your funds will become available shortly",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

@@ -360,8 +360,8 @@
                 "description": "Löscht dein gesamtes Profil, inklusive Wallets und Transaktionsverläufe. Stelle sicher, dass du ein Backup besitzt"
             },
             "deepLinks": {
-                "title": "Deep Links",
-                "description": "Transaktionsdaten automatisch in Firefly ausfüllen, wenn auf einen iota:// Link geklickt wird"
+                "title": "IOTA-Links",
+                "description": "Transaktionsdaten automatisch in Firefly ausfüllen, wenn auf einen IOTA-Link geklickt wird"
             },
             "developerMode": {
                 "title": "Entwicklermodus",
@@ -684,7 +684,7 @@
         "syncAll": "Alle synchronisieren",
         "export": "Exportieren",
         "exportNewStronghold": "Neuen Stronghold exportieren",
-        "enableDeepLinks": "Deep Links aktivieren",
+        "enableDeepLinks": "IOTA-Links aktivieren",
         "enableDeveloperMode": "Entwicklermodus aktivieren",
         "enableSystemNotifications": "Systembenachrichtigungen aktivieren",
         "exportState": "Status exportieren",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 Minute verbleibend} other {# Minuten verbleibend}}",
         "copiedToClipboard": "In die Zwischenablage kopiert",
         "accountsSynchronized": "Synchronisierung der Wallet abgeschlossen",
-        "fundsAvailableSoon": "Dein Guthaben wird in Kürze verfügbar sein"
+        "fundsAvailableSoon": "Dein Guthaben wird in Kürze verfügbar sein",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Bitte melde dich an, um den IOTA-Link zu initiieren",
+            "notEnabled": "IOTA-Links sind nicht aktiviert",
+            "invalidFormat": "Der von dir gefolgte IOTA-Link ist ungültig",
+            "wallet": {
+                "send": {
+                    "success": "Zahlungsinformationen aus IOTA-Link hinzugefügt"
+                }
+            }
+        }
     },
     "error": {
         "profile": {

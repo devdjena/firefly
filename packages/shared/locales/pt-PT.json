@@ -360,8 +360,8 @@
                 "description": "Exclui o seu perfil inteiro, carteiras e histórico de transações. Certifique-se que possui um backup"
             },
             "deepLinks": {
-                "title": "Links Profundos",
-                "description": "Preenche automaticamente os dados da transação no Firefly ao clicar num link iota://"
+                "title": "IOTA links",
+                "description": "Automatically fill transaction data in Firefly upon clicking an IOTA link"
             },
             "developerMode": {
                 "title": "Modo de Desenvolvedor",
@@ -684,7 +684,7 @@
         "syncAll": "Sincronizar tudo",
         "export": "Exportar",
         "exportNewStronghold": "Exportar uma nova Stronghold",
-        "enableDeepLinks": "Ativar links profundos",
+        "enableDeepLinks": "Enable IOTA links",
         "enableDeveloperMode": "Ativar modo de desenvolvedor",
         "enableSystemNotifications": "Ativar notificações do sistema",
         "exportState": "Exportar estado",
@@ -885,7 +885,17 @@
         "minutesRemaining": "{minutes, plural, one {1 minuto restante} other {# minutos restantes}}",
         "copiedToClipboard": "Copiado para área de transferência",
         "accountsSynchronized": "Sincronização da carteira completa",
-        "fundsAvailableSoon": "Your funds will become available shortly"
+        "fundsAvailableSoon": "Your funds will become available shortly",
+        "deepLinkingRequest": {
+            "recievedWhileLoggedOut": "Please login to initiate the IOTA link",
+            "notEnabled": "IOTA links are not enabled",
+            "invalidFormat": "The IOTA link you followed is invalid",
+            "wallet": {
+                "send": {
+                    "success": "Payment details added from IOTA link"
+                }
+            }
+        }
     },
     "error": {
         "profile": {
